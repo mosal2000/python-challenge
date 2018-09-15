@@ -1,4 +1,10 @@
-# python-challenge
+# Python-Challenge
+## Python Code
+  * PyBank/main.py
+  * PyPoll/main.py
+## Output Result
+  * PyBank/PyBank.txt
+  * PyPoll/PyPoll.txt
 
 # Unit 3 | Assignment - Py Me Up, Charlie
 
