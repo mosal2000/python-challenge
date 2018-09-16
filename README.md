@@ -2,11 +2,15 @@
 ## Python Code
   * PyBank/main.py
   * PyPoll/main.py
-  * **Extra:** PyParagraph/main.py
+  * **Extra:** 
+    * PyParagraph/main.py
+    * PyBoss/main.py
 ## Output Result
   * PyBank/PyBank.txt
   * PyPoll/PyPoll.txt
-  * **Extra:** PyParagraph/PyParagraph.txt
+  * **Extra:** 
+    * PyParagraph/PyParagraph.txt
+    * PyBoss/PyBoss.csv
 
 # Unit 3 | Assignment - Py Me Up, Charlie
 
