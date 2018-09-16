@@ -1,3 +1,9 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sat ‎September ‎8, ‎2018, ‏‎3:26:38 PM
+
+@author: Mohammad Ronosentono
+"""
 import os
 import csv
 
@@ -25,6 +31,7 @@ with open(budgetCSV, 'r') as csvfile:
         total_profit_loss += current_profit_loss
         diff_profit_loss = 0
         
+        #Skip the first row
         if total_month > 0:
             diff_profit_loss = current_profit_loss - prev_profit_loss
             
@@ -45,11 +52,13 @@ for i in range(len(diff_list)):
 average_change = total_change/len(diff_list)
 
 #Finding Greatest Increase or Decrease in Profits  
-greatest_increase = max(diff_list,key=lambda item:item[1])[1]
-greatest_increase_date = max(diff_list,key=lambda item:item[1])[0]
+greatest_increase_tuple = max(diff_list,key=lambda item:item[1])
+greatest_increase = greatest_increase_tuple[1]
+greatest_increase_date = greatest_increase_tuple[0]
 
-greatest_decrease = min(diff_list,key=lambda item:item[1])[1]
-greatest_decrease_date = min(diff_list,key=lambda item:item[1])[0]
+greatest_decrease_tuple = min(diff_list,key=lambda item:item[1])
+greatest_decrease = greatest_decrease_tuple[1]
+greatest_decrease_date = greatest_decrease_tuple[0]
 
 # -------- Print Result -------- 
 header = "Financial Analysis\n----------------------------" 
