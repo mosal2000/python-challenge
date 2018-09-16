@@ -52,3 +52,15 @@ print("Approximate Sentence Count: " + str(len(split_sentences)))
 print("Average Letter Count: " + str(average_letters_count))
 print("Average Sentence Length: " + str(average_words_count))
 print("\n\n")
+
+# -------- Write Result to file-------- 
+with open("PyParagraph.txt","w") as txtfile:
+    txtfile.write(header + "\n") 
+    txtfile.write(dashes + "\n") 
+
+    txtfile.write("Approximate Word Count: " + str(len(split_words)) + "\n") 
+    txtfile.write("Approximate Sentence Count: " + str(len(split_sentences)) + "\n") 
+    txtfile.write("Average Letter Count: " + str(average_letters_count) + "\n") 
+    txtfile.write("Average Sentence Length: " + str(average_words_count) + "\n") 
+ 
+    txtfile.close()

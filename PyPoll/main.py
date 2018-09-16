@@ -22,9 +22,7 @@ with open(electionCSV, 'r') as csvfile:
 
     csvfile.close
 
-candidate_list.sort()
 candidate_set = set(candidate_list)
-sorted_candidate_set = sorted(candidate_set)
 
 #Counting total each candidate
 for candidate in candidate_set:
