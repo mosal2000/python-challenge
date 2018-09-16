@@ -2,6 +2,7 @@
 ## Python Code
   * PyBank/main.py
   * PyPoll/main.py
+  * **Extra:** PyParagraph/main.py
 ## Output Result
   * PyBank/PyBank.txt
   * PyPoll/PyPoll.txt
