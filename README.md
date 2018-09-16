@@ -6,6 +6,7 @@
 ## Output Result
   * PyBank/PyBank.txt
   * PyPoll/PyPoll.txt
+  * **Extra:** PyParagraph/PyParagraph.txt
 
 # Unit 3 | Assignment - Py Me Up, Charlie
 
