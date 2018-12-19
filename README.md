@@ -14,7 +14,7 @@
 
 ## Background
 
-This project **2** Python Challenges, PyBank and PyPoll. Both of these challenges encompasses a real-world situation using Python scripting.
+This project contains **2** Python Challenges, PyBank and PyPoll. Both of these challenges encompasses a real-world situation using Python scripting.
 
 ## PyBank
 
